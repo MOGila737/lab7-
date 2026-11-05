@@ -10,8 +10,8 @@ int main() {
     std::cout << "Enter t2: ";
     std::cin >> t2;
     
-    double S1 = (g * t1 * t1) / 3.0;
-    double S2 = (g * t2 * t2) / 2.0;
+    double S1 = (g * t1 * t1) / 2.0;
+    double S2 = (g * t2 * t2) / 3.0;
 
     std::cout << "Pisla" << t1 << " sek: " << S1 << " m" << std::endl;
     std::cout << "Pisla" << t2 << " sek: " << S2 << " m" << std::endl;
