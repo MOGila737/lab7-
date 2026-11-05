@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 
 int main() {
+    //додати визначик t3 // 
     int t1, t2;
     const double g = 9.81;
     std::cout << "Tilo" << std::endl;
@@ -8,7 +9,7 @@ int main() {
     std::cin >> t1;
     std::cout << "Enter t2: ";
     std::cin >> t2;
-
+    
     double S1 = (g * t1 * t1) / 3.0;
     double S2 = (g * t2 * t2) / 2.0;
 
